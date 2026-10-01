@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Farmacia Salud y Vida</title>
+
+    <style>
+
+        * {
+
+            box-sizing: border-box;
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background-color: #f4fbf9;
+
+            color: #333;
+
+            line-height: 1.6;
+
+        }
+
+        header {
+
+            background: #0b8f87;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 35px 20px;
+
+        }
+
+        header h1 {
+
+            font-size: 36px;
+
+            margin-bottom: 10px;
+
+        }
+
+        header p {
+
+            font-size: 18px;
+
+        }
+
+        nav {
+
+            background: #066d67;
+
+            text-align: center;
+
+            padding: 15px;
+
+            position: sticky;
+
+            top: 0;
+
+        }
+
+        nav a {
+
+            color: white;
+
+            text-decoration: none;
+
+            margin: 0 15px;
+
+            font-weight: bold;
+
+        }
+
+        nav a:hover {
+
+            text-decoration: underline;
+
+        }
+
+        section {
+
+            padding: 45px 20px;
+
+            max-width: 1100px;
+
+            margin: auto;
+
+        }
+
+        .inicio {
+
+            text-align: center;
+
+        }
+
+        .inicio h2 {
+
+            color: #0b8f87;
+
+            font-size: 30px;
+
+            margin-bottom: 15px;
+
+        }
+
+        .tarjetas {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            justify-content: center;
+
+            gap: 20px;
+
+            margin-top: 25px;
+
+        }
+
+        .tarjeta {
+
+            background: white;
+
+            width: 280px;
+
+            padding: 25px;
+
+            border-radius: 15px;
+
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+
+            text-align: center;
+
+        }
+
+        .tarjeta h3 {
+
+            color: #0b8f87;
+
+            margin-bottom: 10px;
+
+        }
+
+        .producto {
+
+            font-size: 45px;
+
+            margin-bottom: 10px;
+
+        }
+
+        .sobre {
+
+            background: white;
+
+            border-radius: 15px;
+
+            box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+
+            padding: 30px;
+
+            text-align: center;
+
+        }
+
+        .contacto {
+
+            text-align: center;
+
+            background: #e0f5f2;
+
+            border-radius: 15px;
+
+        }
+
+        .boton {
+
+            display: inline-block;
+
+            margin-top: 20px;
+
+            padding: 12px 25px;
+
+            background: #0b8f87;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 25px;
+
+            font-weight: bold;
+
+        }
+
+        .boton:hover {
+
+            background: #066d67;
+
+        }
+
+        footer {
+
+            background: #066d67;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 25px 15px;
+
+            margin-top: 30px;
+
+        }
+
+        footer p {
+
+            margin: 5px 0;
+
+        }
+
+        @media (max-width: 600px) {
+
+            header h1 {
+
+                font-size: 28px;
+
+            }
+
+            nav a {
+
+                display: inline-block;
+
+                margin: 5px 8px;
+
+            }
+
+            .tarjeta {
+
+                width: 100%;
+
+                max-width: 330px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>💊 Farmacia Salud y Vida</h1>
+
+        <p>Tu bienestar es nuestra prioridad</p>
+
+    </header>
+
+    <nav>
+
+        <a href="#inicio">Inicio</a>
+
+        <a href="#productos">Productos</a>
+
+        <a href="#servicios">Servicios</a>
+
+        <a href="#nosotros">Nosotros</a>
+
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+
+    <section id="inicio" class="inicio">
+
+        <h2>Bienvenidos a Farmacia Salud y Vida</h2>
+
+        <p>
+
+            Somos un emprendimiento dedicado a ofrecer productos y servicios
+
+            que contribuyen al cuidado y bienestar de nuestra comunidad.
+
+        </p>
+
+        <div class="tarjetas">
+
+            <div class="tarjeta">
+
+                <div class="producto">💊</div>
+
+                <h3>Medicamentos</h3>
+
+                <p>Productos para diferentes necesidades de salud.</p>
+
+            </div>
+
+            <div class="tarjeta">
+
+                <div class="producto">🩺</div>
+
+                <h3>Cuidado de la salud</h3>
+
+                <p>Orientación y atención para nuestros clientes.</p>
+
+            </div>
+
+            <div class="tarjeta">
+
+                <div class="producto">❤️</div>
+
+                <h3>Compromiso</h3>
+
+                <p>Trabajamos pensando en el bienestar de las personas.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="productos">
+
+        <h2>🛍️ Nuestros productos</h2>
+
+        <div class="tarjetas">
+
+            <div class="tarjeta">
+
+                <h3>Medicamentos</h3>
+
+                <p>Medicamentos de uso común y productos farmacéuticos.</p>
+
+            </div>
+
+            <div class="tarjeta">
+
+                <h3>Vitaminas</h3>
+
+                <p>Productos y vitaminas para complementar el cuidado personal.</p>
+
+            </div>
+
+            <div class="tarjeta">
+
+                <h3>Higiene personal</h3>
+
+                <p>Productos para el cuidado y la higiene diaria.</p>
+
+            </div>
+
+            <div class="tarjeta">
+
+                <h3>Primeros auxilios</h3>
+
+                <p>Artículos básicos para el cuidado de pequeñas lesiones.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="servicios">
+
+        <h2>🩺 Nuestros servicios</h2>
+
+        <div class="tarjetas">
+
+            <div class="tarjeta">
+
+                <h3>Atención al cliente</h3>
+
+                <p>Brindamos atención amable y responsable a nuestros clientes.</p>
+
+            </div>
+
+            <div class="tarjeta">
+
+                <h3>Orientación</h3>
+
+                <p>Ofrecemos información general sobre nuestros productos.</p>
+
+            </div>
+
+            <div class="tarjeta">
+
+                <h3>Pedidos</h3>
+
+                <p>Facilitamos la consulta de productos disponibles.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="nosotros">
+
+        <div class="sobre">
+
+            <h2>👩‍💼 Sobre nuestro emprendimiento</h2>
+
+            <p>
+
+                Farmacia Salud y Vida es un proyecto de emprendimiento creado
+
+                con el propósito de ofrecer productos relacionados con la salud,
+
+                el cuidado personal y el bienestar de nuestra comunidad.
+
+            </p>
+
+            <br>
+
+            <p>
+
+                Nuestro objetivo es brindar una atención responsable, amable
+
+                y de calidad, promoviendo siempre el cuidado de la salud.
+
+            </p>
+
+            <br>
+
+            <p><strong>Autora del proyecto:</strong></p>
+
+            <p>Angie Brigieth Bonilla Del Cid</p>
+
+        </div>
+
+    </section>
+
+    <section id="contacto">
+
+        <div class="contacto">
+
+            <h2>📞 Contáctanos</h2>
+
+            <p>
+
+                Gracias por visitar Farmacia Salud y Vida.
+
+            </p>
+
+            <p>
+
+                Estamos comprometidos con tu bienestar.
+
+            </p>
+
+            <a class="boton" href="#inicio">Volver al inicio</a>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>💊 Farmacia Salud y Vida</p>
+
+        <p>Proyecto de emprendimiento</p>
+
+        <p>Autora: Angie Brigieth Bonilla Del Cid</p>
+
+        <p>© 2026 Todos los derechos reservados</p>
+
+    </footer>
+
+</body>
+
+</html>
